@@ -83,14 +83,11 @@ listExamplesMd('./docs/pages/example/')
                 hasExampleComponent,
                 `Content must include: {{ <Example html={html} {...this.props} /> }}`
             );
+            const hasLink = content.match(/\[([^[]+)\](\(.*\))/gm);
+            t.ok(hasLink, `Content must include a link`);
+
             t.end();
         });
-        /*
-        1. Duplicate test structure from above (lines 78-87)
-        2. Find regex for markdown links: https://davidwells.io/snippets/regex-match-markdown-links
-        3. Update the "file.match" to use the markdown regex.
-        4. Update `t.ok` with new messaging.
-        */
     });
 
 // Test .html files
