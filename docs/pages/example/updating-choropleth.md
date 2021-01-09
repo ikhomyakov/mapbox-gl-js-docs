@@ -16,6 +16,12 @@ prependJs:
 - "import html from './updating-choropleth.html';"
 ---
 
-Use 2014 census data to display state or county population depending on zoom level.
+This map uses 2014 U.S. Census data to create two layers, one containing a choropleth visualization for _state populations_, and one containing a choropleth visualization for _county populations_. 
+
+Then, it defines a zoom level at which each layer and its respective legend should appear or disappear.
+
+You can use the [minzoom]() and [minzoom]() layer properties to define the zoom levels at which a map layer should appear or disappear.
+
+You can use the [`map.zoom`]() and [`map.getZoom`]() events to control the appearance of other elements. 
 
 {{ <Example html={html} {...this.props} /> }}

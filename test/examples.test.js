@@ -71,7 +71,6 @@ listExamplesMd('./docs/pages/example/')
                     fs.existsSync(imagePathSrc),
                     `example must have an image located at: ${imagePathSrc}`
                 );
-
                 t.end();
             });
         }
@@ -85,7 +84,6 @@ listExamplesMd('./docs/pages/example/')
             );
             const hasLink = content.match(/\[([^[]+)\](\(.*\))/gm);
             t.ok(hasLink, `Content must include a link`);
-
             t.end();
         });
     });
