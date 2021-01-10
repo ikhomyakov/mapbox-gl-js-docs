@@ -1,6 +1,6 @@
 ---
 title: Display a satellite map
-description: Display a satellite raster layer on a map.
+description: Display a satellite raster baselayer on a map.
 topics:
   - Styles
 thumbnail: satellite-map
@@ -16,6 +16,8 @@ prependJs:
 - "import html from './satellite-map.html';"
 ---
 
-Display a satellite raster layer on a map.
+This example shows how to display a satellite raster baselayer on a web map.
+
+This example is similar to [display a map](https://docs.mapbox.com/mapbox-gl-js/example/simple-map/), but it uses the style URL for [Mapbox Satellite](https://www.mapbox.com/maps/satellite/).
 
 {{ <Example html={html} {...this.props} /> }}

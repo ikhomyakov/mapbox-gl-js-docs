@@ -16,6 +16,8 @@ prependJs:
 - "import html from './setstyle.html';"
 ---
 
-Switch to another map style by using [`setstyle`](https://docs.mapbox.com/mapbox-gl-js/api/map/#map#setstyle) with a [style URL](https://docs.mapbox.com/help/glossary/style-url/) for your own custom map style, or a style URL for any of our [Mapbox-owned styles](https://docs.mapbox.com/api/maps/styles/#mapbox-styles).
+This example adds a clickable interface that enables a user to apply a different style to a map.
+
+When the user clicks a style name in the interface, the application uses [`setstyle`](https://docs.mapbox.com/mapbox-gl-js/api/map/#map#setstyle) to redraw the map using the [style URL](https://docs.mapbox.com/help/glossary/style-url/) associated with that option.
 
 {{ <Example html={html} {...this.props} /> }}
