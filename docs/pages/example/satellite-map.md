@@ -1,6 +1,6 @@
 ---
 title: Display a satellite map
-description: Display a satellite raster baselayer.
+description: Display a satellite raster layer on a map.
 topics:
   - Styles
 thumbnail: satellite-map
@@ -16,6 +16,6 @@ prependJs:
 - "import html from './satellite-map.html';"
 ---
 
-Display a satellite raster baselayer.
+Display a satellite raster layer on a map.
 
 {{ <Example html={html} {...this.props} /> }}
