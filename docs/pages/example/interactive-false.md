@@ -15,6 +15,6 @@ prependJs:
 - "import html from './interactive-false.html';"
 ---
 
-Set `interactive: false` to create a static map.
+Set the map parameter [`interactive`](https://docs.mapbox.com/mapbox-gl-js/api/map/#map-parameters) to `false` to present a static map with no interactivity.
 
 {{ <Example html={html} {...this.props} /> }}
