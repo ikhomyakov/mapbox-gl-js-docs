@@ -15,6 +15,8 @@ prependJs:
 - "import html from './playback-locations.html';"
 ---
 
-Autoplay the locations of boroughs in New York City.
+This example autoplays through a series of locations of boroughs in New York City.
+
+The application uses a variable to define a collection of locations, each with a title, description, center, and other properties. Then, it defines an automatic playback function and uses that function with [`flyTo`](https://docs.mapbox.com/mapbox-gl-js/api/map/#map#flyto) to autoplay through locations on the map and update the descriptive overlay.
 
 {{ <Example html={html} {...this.props} /> }}
