@@ -17,6 +17,6 @@ prependJs:
 
 This example adds a clickable interface that allows a user to enable and disable two different map layers.
 
-The interface uses [`setLayoutProperty`](https://docs.mapbox.com/mapbox-gl-js/api/map/#map#setlayoutproperty) to toggle the value for each layer's [`layout`](https://docs.mapbox.com/mapbox-gl-js/style-spec/layers/#layout) sub-property for `visibility` between `visble` and `none`.
+The interface uses [`setLayoutProperty`](/mapbox-gl-js/api/map/#map#setlayoutproperty) to toggle the value for each layer's [`layout`](/mapbox-gl-js/style-spec/layers/#layout) sub-property for `visibility` between `visble` and `none`.
 
 {{ <Example html={html} {...this.props} /> }}

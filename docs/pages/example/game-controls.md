@@ -17,6 +17,6 @@ prependJs:
 
 In this example, the user can press their keyboard's arrow keys to move around the map with game-like controls.
 
-The map uses [`panBy`](https://docs.mapbox.com/mapbox-gl-js/api/map/#map#panby) to move forward and backward, and [`easeTo`](https://docs.mapbox.com/mapbox-gl-js/api/map/#map#easeto) to move left and right.
+The map uses [`panBy`](/mapbox-gl-js/api/map/#map#panby) to move forward and backward, and [`easeTo`](/mapbox-gl-js/api/map/#map#easeto) to move left and right.
 
 {{ <Example html={html} {...this.props} /> }}

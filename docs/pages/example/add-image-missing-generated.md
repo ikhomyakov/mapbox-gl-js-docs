@@ -16,6 +16,6 @@ prependJs:
 - "import html from './add-image-missing-generated.html';"
 ---
 
-This example dynamically generates a missing icon at runtime, then uses [`addImage`](https://docs.mapbox.com/mapbox-gl-js/api/map/#map#addimage) to add it to the map.
+This example dynamically generates a missing icon at runtime, then uses [`addImage`](/mapbox-gl-js/api/map/#map#addimage) to add it to the map.
 
 {{ <Example html={html} {...this.props} /> }}

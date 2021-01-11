@@ -15,6 +15,6 @@ prependJs:
 - "import html from './filter-features-within-map-view.html';"
 ---
 
-Use [`queryRenderedFeatures`](https://docs.mapbox.com/mapbox-gl-js/api/map/#map#queryrenderedfeatures) to enable a user to move a map to query viewable features in a vector tile layer and filter by typing in an input.
+Use [`queryRenderedFeatures`](/mapbox-gl-js/api/map/#map#queryrenderedfeatures) to enable a user to move a map to query viewable features in a vector tile layer and filter by typing in an input.
 
 {{ <Example html={html} {...this.props} /> }}

@@ -16,6 +16,6 @@ prependJs:
 - "import html from './add-image-generated.html';"
 ---
 
-This example generates an icon at runtime, then uses [`addImage`](https://docs.mapbox.com/mapbox-gl-js/api/map/#map#addimage) to add it to the map.
+This example generates an icon at runtime, then uses [`addImage`](/mapbox-gl-js/api/map/#map#addimage) to add it to the map.
 
 {{ <Example html={html} {...this.props} /> }}

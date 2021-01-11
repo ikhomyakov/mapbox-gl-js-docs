@@ -17,6 +17,6 @@ prependJs:
 
 This example adds an interface to enable and disable seven different map user interactions: `scrollZoom`, `boxZoom`, `dragRotate`, `dragPan`, `keyboard`, `doubleClickZoom`, and `touchZoomRotate`.
 
-You can use [user interaction handlers](https://docs.mapbox.com/mapbox-gl-js/api/handlers/) to control how a map object responds to user input.
+You can use [user interaction handlers](/mapbox-gl-js/api/handlers/) to control how a map object responds to user input.
 
 {{ <Example html={html} {...this.props} /> }}

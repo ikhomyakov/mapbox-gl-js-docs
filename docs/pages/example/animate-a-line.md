@@ -18,7 +18,7 @@ prependJs:
 
 This example animates a line by updating a GeoJSON source on each frame.
 
-The application uses a variable to store a GeoJSON object, then uses [adds a source](https://docs.mapbox.com/mapbox-gl-js/api/map/#map#addsource) referring to that object as a data value, then uses [`addLayer`](https://docs.mapbox.com/mapbox-gl-js/api/map/#map#addlayer) to add a [line type layer](https://docs.mapbox.com/mapbox-gl-js/style-spec/layers/#line) to the map.
+The application uses a variable to store a GeoJSON object, then uses [adds a source](/mapbox-gl-js/api/map/#map#addsource) referring to that object as a data value, then uses [`addLayer`](/mapbox-gl-js/api/map/#map#addlayer) to add a [line type layer](/mapbox-gl-js/style-spec/layers/#line) to the map.
 
 When the animation begins, the data in the GeoJSON object changes, and the line appears animated on the map.
 

@@ -15,6 +15,6 @@ prependJs:
 - "import html from './navigation.html';"
 ---
 
-Use [`addControl`](https://docs.mapbox.com/mapbox-gl-js/api/map/#map#addcontrol) to add zoom and rotation controls to the map.
+Use [`addControl`](/mapbox-gl-js/api/map/#map#addcontrol) to add zoom and rotation controls to the map.
 
 {{ <Example html={html} {...this.props} /> }}
