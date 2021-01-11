@@ -15,6 +15,6 @@ prependJs:
 - "import html from './custom-style-layer.html';"
 ---
 
-Use a custom style layer to render custom WebGL content.
+This example use a [custom style layer](https://docs.mapbox.com/mapbox-gl-js/api/properties/#customlayerinterface) to render custom WebGL content.
 
 {{ <Example html={html} {...this.props} /> }}
