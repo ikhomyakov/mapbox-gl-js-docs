@@ -20,8 +20,8 @@ This map uses 2014 U.S. Census data to create two layers, one containing a choro
 
 Then, it defines a zoom level at which each layer and its respective legend should appear or disappear.
 
-You can use the [minzoom]() and [minzoom]() layer properties to define the zoom levels at which a map layer should appear or disappear.
+You can use the `minzoom` and `minzoom` [layer properties](https://docs.mapbox.com/mapbox-gl-js/style-spec/layers/) to define the zoom levels at which a map layer should appear or disappear.
 
-You can use the [`map.zoom`]() and [`map.getZoom`]() events to control the appearance of other elements. 
+You can use [`getZoom`](https://docs.mapbox.com/mapbox-gl-js/api/map/#map#getzoom) with the [`MapBoxZoomEvent`](https://docs.mapbox.com/mapbox-gl-js/api/events/#mapboxzoomevent) event type to obtain zoom values to control the appearance of other elements. 
 
 {{ <Example html={html} {...this.props} /> }}
