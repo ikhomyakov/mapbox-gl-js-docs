@@ -15,7 +15,7 @@ prependJs:
 - "import html from './fullscreen.html';"
 ---
 
-This example adds a clickable map contol that enables a user to toggle fullscreen mode on and off.
+This example adds a clickable map control that enables a user to toggle fullscreen mode on and off.
 
 It uses [`addControl`](/mapbox-gl-js/api/map/#map#addcontrol) with [`FullscreenControl`](/mapbox-gl-js/api/markers/#fullscreencontrol) to add the button overlay on the map.
 

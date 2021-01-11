@@ -15,7 +15,7 @@ prependJs:
 - "import html from './multiple-geometries.html';"
 ---
 
-This example uses [`addSource`](/mapbox-gl-js/api/map/#map#addsource) to to add one GeoJSON source to a map. The source contains both polygon and point features.
+This example uses [`addSource`](/mapbox-gl-js/api/map/#map#addsource) to add one GeoJSON source to a map. The source contains both polygon and point features.
 
 Then, it uses [`addLayer`](/mapbox-gl-js/api/map/#map#addlayer) to add one `fill` layer, which will render the polygons, and one `circle` layer, which will render the points, to the map.
 

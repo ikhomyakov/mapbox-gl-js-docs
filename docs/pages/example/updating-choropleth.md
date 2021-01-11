@@ -22,6 +22,6 @@ Then, it defines a zoom level at which each layer and its respective legend shou
 
 You can use the `minzoom` and `minzoom` [layer properties](/mapbox-gl-js/style-spec/layers/) to define the zoom levels at which a map layer should appear or disappear.
 
-You can use [`getZoom`](/mapbox-gl-js/api/map/#map#getzoom) with the [`MapBoxZoomEvent`](/mapbox-gl-js/api/events/#mapboxzoomevent) event type to obtain zoom values to control the appearance of other elements. 
+You can use [`getZoom`](/mapbox-gl-js/api/map/#map#getzoom) with the [`MapBoxZoomEvent`](/mapbox-gl-js/api/events/#mapboxzoomevent) event type to get zoom values to control the appearance of other elements. 
 
 {{ <Example html={html} {...this.props} /> }}
