@@ -16,11 +16,9 @@ prependJs:
 - "import html from './updating-choropleth.html';"
 ---
 
-This map uses 2014 U.S. Census data to create two layers, one containing a choropleth visualization for _state populations_, and one containing a choropleth visualization for _county populations_. 
+This map uses 2014 U.S. Census data to create two layers. One layer contains a choropleth visualization for _state populations_, and one layer contains a choropleth visualization for _county populations_. 
 
-Then, it defines a zoom level at which each layer and its respective legend should appear or disappear.
-
-You can use the `minzoom` and `minzoom` [layer properties](/mapbox-gl-js/style-spec/layers/) to define the zoom levels at which a map layer should appear or disappear.
+The example defines a zoom level at which each layer and its respective legend should appear or disappear using the `minzoom` and `minzoom` [layer properties](/mapbox-gl-js/style-spec/layers/).
 
 You can use [`getZoom`](/mapbox-gl-js/api/map/#map#getzoom) with the [`MapBoxZoomEvent`](/mapbox-gl-js/api/events/#mapboxzoomevent) event type to get zoom values to control the appearance of other elements. 
 
