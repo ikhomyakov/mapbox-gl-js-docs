@@ -1,6 +1,6 @@
 ---
 title: Display a satellite map
-description: Display a satellite raster baselayer on a map.
+description: Display a satellite raster layer on a map.
 topics:
   - Styles
 thumbnail: satellite-map
