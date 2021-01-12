@@ -17,7 +17,7 @@ prependJs:
 
 In this example, a user can hover their cursor over any county in the United States, and the map highlights other U.S. counties with a matching name. The application also shows a popup with the name of the county at the cursor location, and shows an HTML overlay with summary information.
 
-The example first uses [addSource](/mapbox-gl-js/api/map/#map#addsource) to connect data from a vector tileset, and then uses [`addLayer`](/mapbox-gl-js/api/map/#map#addlayer) to add two [`fill`](/mapbox-gl-js/style-spec/layers/#fill) layers using that source.
+The example first uses [`addSource`](/mapbox-gl-js/api/map/#map#addsource) to connect data from a vector tileset, and then uses [`addLayer`](/mapbox-gl-js/api/map/#map#addlayer) to add two [`fill`](/mapbox-gl-js/style-spec/layers/#fill) layers using that source.
 
 Then, it uses [`mousemove`](/mapbox-gl-js/api/map/#map.event:mousemove) to gain [MapMouseEvent](/mapbox-gl-js/api/events/#mapmouseevent) information to use with [`querySourceFeatures`](/mapbox-gl-js/api/map/#map#querysourcefeatures) to search for the county located at the cursor position, and other counties with the same name.
 
