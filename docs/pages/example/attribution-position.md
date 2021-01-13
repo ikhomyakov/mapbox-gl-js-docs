@@ -15,8 +15,6 @@ prependJs:
 - "import html from './attribution-position.html';"
 ---
 
-This example places the [required](https://docs.mapbox.com/help/how-mapbox-works/attribution/) map attribution in the `top-left` position when initializing a map.
-
-The application uses [`addControl`]https://docs.mapbox.com/mapbox-gl-js/api/map/#map#addcontrol with [`AttributionControl`](/mapbox-gl-js/api/markers/#attributioncontrol) to specify the position for this control as `top-left`.
+This example places the [required map attribution](https://docs.mapbox.com/help/how-mapbox-works/attribution/) in the `top-left` position of a map using [`addControl`](/mapbox-gl-js/api/map/#map#addcontrol) with [`AttributionControl`](/mapbox-gl-js/api/markers/#attributioncontrol).
 
 {{ <Example html={html} {...this.props} /> }}
