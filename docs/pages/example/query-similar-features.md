@@ -19,6 +19,6 @@ In this example, a user can hover their cursor over any county in the United Sta
 
 The example first uses [`addSource`](/mapbox-gl-js/api/map/#map#addsource) to connect data from a vector tileset, and then uses [`addLayer`](/mapbox-gl-js/api/map/#map#addlayer) to add two [`fill`](/mapbox-gl-js/style-spec/layers/#fill) layers using that source.
 
-It uses [`mousemove`](/mapbox-gl-js/api/map/#map.event:mousemove) to find the name of the county located at the cursor position, then uses and [`querySourceFeatures`](/mapbox-gl-js/api/map/#map#querysourcefeatures) to find other counties with the same name and highlights them using an overlay on the map.
+It uses [`mousemove`](/mapbox-gl-js/api/map/#map.event:mousemove) to find the name of the county located at the cursor position, then uses [`querySourceFeatures`](/mapbox-gl-js/api/map/#map#querysourcefeatures) to find other counties with the same name and highlights them using an overlay on the map.
 
 {{ <Example html={html} {...this.props} /> }}
