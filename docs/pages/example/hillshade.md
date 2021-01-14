@@ -17,6 +17,6 @@ prependJs:
 - "import html from './hillshade.html';"
 ---
 
-This example adds raster hillshading to a map by first creating a map with no hillshading, then using [`addSource`](/mapbox-gl-js/api/map/#map#addsource) and [`addLayer`](/mapbox-gl-js/api/map/#map#addlayer) to add the freely available [Mapbox Terrain-RGB](https://docs.mapbox.com/help/troubleshooting/access-elevation-data/#mapbox-terrain-rgb) raster tileset as a [`raster-dem`](/mapbox-gl-js/style-spec/sources/#raster-dem) source for a [`hillshade`](/mapbox-gl-js/style-spec/layers/#hillshade) layer.
+This example adds raster hillshading to a map by adding the [Mapbox Terrain-RGB](https://docs.mapbox.com/help/troubleshooting/access-elevation-data/#mapbox-terrain-rgb) raster tileset as a [`raster-dem`](/mapbox-gl-js/style-spec/sources/#raster-dem) source with a [`hillshade`](/mapbox-gl-js/style-spec/layers/#hillshade) layer.
 
 {{ <Example html={html} {...this.props} /> }}
