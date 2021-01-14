@@ -15,6 +15,6 @@ prependJs:
 - "import html from './cluster.html';"
 ---
 
-This example uses Mapbox GL JS' built-in [`cluster`](/mapbox-gl-js/style-spec/sources/#geojson-cluster) functions to visualize points in a [`circle`](/mapbox-gl-js/style-spec/layers/#circle) type layer as clusters.
+This example uses Mapbox GL JS' built-in [`cluster`](/mapbox-gl-js/style-spec/sources/#geojson-cluster) functions to visualize points in a [`circle`](/mapbox-gl-js/style-spec/layers/#circle) layer as clusters.
 
 {{ <Example html={html} {...this.props} /> }}
